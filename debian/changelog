@@ -1,0 +1,17 @@
+regolith-compositor-compton-glx (1.0.1-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Use makefile to preserve file permissions. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 09 Nov 2019 20:01:56 -0800
+
+regolith-compositor-compton-glx (1.0-1ubuntu1~ppa2) disco; urgency=medium
+
+  * Add conflicts with legacy package to fix install error. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 09 Nov 2019 08:16:24 -0800
+
+regolith-compositor-compton-glx (1.0-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Rename package from regolith-compton-config. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 08 Nov 2019 06:56:50 -0800

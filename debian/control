@@ -1,0 +1,16 @@
+Source: regolith-compositor-compton-glx
+Section: x11
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Vcs-Git: https://github.com/regolith-linux/regolith-compositor-compton-glx.git
+
+Package: regolith-compositor-compton-glx
+Architecture: any
+Depends: ${misc:Depends}, compton
+Description: Regolith configuration for Compton
+Provides: regolith-compositor
+Conflicts: regolith-compositor, regolith-compton-config
+Replaces: regolith-compositor, regolith-compton-config
