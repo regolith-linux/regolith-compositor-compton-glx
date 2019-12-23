@@ -1,3 +1,9 @@
+regolith-compositor-compton-glx (1.0.2-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Remove menu opacity. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 23 Dec 2019 00:17:59 -0800
+
 regolith-compositor-compton-glx (1.0.1-1ubuntu1~ppa1) disco; urgency=medium
 
   * Use makefile to preserve file permissions. 
