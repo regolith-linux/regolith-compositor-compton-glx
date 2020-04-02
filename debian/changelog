@@ -1,3 +1,9 @@
+regolith-compositor-compton-glx (1.0.6) eoan; urgency=medium
+
+  * Allow user staged compton config.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 01 Apr 2020 20:57:02 -0700
+
 regolith-compositor-compton-glx (1.0.5-1ubuntu1~ppa1) eoan; urgency=medium
 
   * Take @MeyerCode's fix for removing warnings. 
