@@ -1,7 +1,5 @@
 #!/bin/bash
 
-if [[ -f "$HOME/.config/regolith/compton/config" ]]; then
-  /usr/bin/compton -f --config $HOME/.config/regolith/compton/config
-else
-  /usr/bin/compton -f --config /etc/regolith/compton/config
-fi
+declare -r CONFIG="$(xrdb -query | grep '^i3-wm.compton.config:' | cut -f2)"
+
+exec /usr/bin/compton -f --config "${CONFIG:-/etc/regolith/compton/config}"
