@@ -10,7 +10,9 @@ Vcs-Git: https://github.com/regolith-linux/regolith-compositor-compton-glx.git
 Package: regolith-compositor-compton-glx
 Architecture: any
 Depends: ${misc:Depends}, compton
-Description: Regolith configuration for Compton
 Provides: regolith-compositor
 Conflicts: regolith-compositor, regolith-compton-config
 Replaces: regolith-compositor, regolith-compton-config
+Description: Regolith configuration for Compton
+ Default configuration for Regolith compositor using picom compositor
+ before name change, and using the glx backend.

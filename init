@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# See https://regolith-linux.org/docs/customize/compositors/
 if [[ -f "$HOME/.config/regolith/compton/config" ]]; then
   /usr/bin/compton -f --config $HOME/.config/regolith/compton/config
 else
