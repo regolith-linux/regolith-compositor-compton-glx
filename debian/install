@@ -1,1 +1,2 @@
-init usr/share/regolith-compositor
+init usr/share/regolith-compositor/
+config etc/regolith/compton/
