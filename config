@@ -41,6 +41,9 @@ glx-copy-from-front = false;
 glx-no-rebind-pixmap = true;
 use-damage = true;
 
+# On GLX backend, bad synchronization between X Render and GLX may lead to some sort of lagging effect (especially with nvidia-drivers). Use --xrender-sync-fence to deal with it.
+xrender-sync-fence = true
+
 
 #################################
 #
