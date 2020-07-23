@@ -1,3 +1,10 @@
+regolith-compositor-compton-glx (1.0.10-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix typo in compton config file, found by @gservat.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 22 Jul 2020 18:04:55 -0700
+
 regolith-compositor-compton-glx (1.0.9-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
