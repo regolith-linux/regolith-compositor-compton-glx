@@ -1,5 +1,11 @@
 #!/bin/bash
 # See https://regolith-linux.org/docs/customize/compositors/
+
+compositor_PID=$(pidof compton)
+if [ ! -z "$compositor_PID" ]; then
+    kill $compositor_PID
+fi
+
 if [[ -f "$HOME/.config/regolith/compton/config" ]]; then
   /usr/bin/compton -f --config $HOME/.config/regolith/compton/config
 else

@@ -1,3 +1,10 @@
+regolith-compositor-compton-glx (1.1.0-1) bionic; urgency=medium
+
+  [ Ken Gilmer ]
+  * Init script will kill pre-existing app instance before starting new. Part of fix for https://github.com/regolith-linux/regolith-desktop/issues/475.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 07 Sep 2020 13:53:29 -0700
+
 regolith-compositor-compton-glx (1.0.10-1) bionic; urgency=medium
 
   [ Ken Gilmer ]
