@@ -1,4 +1,4 @@
-regolith-compositor-compton-glx (1.1.1-1ubuntu1) focal; urgency=medium
+regolith-compositor-compton-glx (1.1.2-1) focal; urgency=medium
 
   [ Ken Gilmer ]
   * Add new name for zoom window, from https://github.com/regolith-linux/regolith-compositor-compton-glx/issues/3
