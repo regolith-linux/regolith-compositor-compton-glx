@@ -6,8 +6,8 @@ if [ ! -z "$compositor_PID" ]; then
     kill $compositor_PID
 fi
 
-if [[ -f "$HOME/.config/regolith/compton/config" ]]; then
-  /usr/bin/compton -f --config $HOME/.config/regolith/compton/config
+if [[ -f "$HOME/.config/regolith2/compton/config" ]]; then
+  /usr/bin/compton -f --config $HOME/.config/regolith2/compton/config
 else
   /usr/bin/compton -f --config /etc/regolith/compton/config
 fi
