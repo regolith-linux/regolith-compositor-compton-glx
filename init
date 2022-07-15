@@ -9,5 +9,6 @@ fi
 if [[ -f "$HOME/.config/regolith2/compton/config" ]]; then
   /usr/bin/compton -f --config $HOME/.config/regolith2/compton/config
 else
-  /usr/bin/compton -f --config /etc/regolith/compton/config
+  CONFIG_PATH=$(xrescat regolith.compositor.compton.config /etc/regolith/compton/config)
+  /usr/bin/compton -f --config "$CONFIG_PATH"
 fi
