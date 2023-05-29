@@ -6,8 +6,8 @@ if [ ! -z "$compositor_PID" ]; then
     kill $compositor_PID
 fi
 
-if [[ -f "$HOME/.config/regolith2/compton/config" ]]; then
-  /usr/bin/compton -f --config $HOME/.config/regolith2/compton/config
+if [[ -f "$HOME/.config/regolith3/compton/config" ]]; then
+  /usr/bin/compton -f --config $HOME/.config/regolith3/compton/config
 else
   CONFIG_PATH=$(xrescat regolith.compositor.compton.config /etc/regolith/compton/config)
   /usr/bin/compton -f --config "$CONFIG_PATH"
