@@ -1,4 +1,4 @@
-regolith-compositor-compton-glx (1.1.4ubuntu1) UNRELEASED; urgency=medium
+regolith-compositor-compton-glx (1.2.0) focal; urgency=medium
 
   * use regolith3 for user config directory due to MVB
 
