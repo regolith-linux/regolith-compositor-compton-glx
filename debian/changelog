@@ -1,3 +1,12 @@
+regolith-compositor-compton-glx (1.2.4) focal; urgency=medium
+
+  [ rego-port-bot ]
+  * fix: replace the regex shadow exclusion that makes compton exit at start
+  * fix: point the init comment at the current compositor docs
+  * fix: quote the user compton config path and exec compton
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 11 Nov 2026 11:28:40 -0800
+
 regolith-compositor-compton-glx (1.2.2) focal; urgency=medium
 
   [ Khosrow Moossavi ]
